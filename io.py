@@ -6,4 +6,5 @@ Druga linijka
 Trzecia linijka
 '''
 #funkcja wyjścia
-print("Jakiś tekst") #funkcja wyjścia
+print("Jakiś tekst")#funkcja wyjścia
+print ("Kolejny tekst") 
