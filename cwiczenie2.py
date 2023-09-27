@@ -30,6 +30,6 @@ nowa_tupla = moja_tupla + tuple(moja_lista)
 posortowana_tupla = tuple(sorted(nowa_tupla))
 print(posortowana_tupla)
 
-lista2.reverse()
-print(lista2)
+lista_symetryczna=lista2[::-1]
+print(lista_symetryczna)
 
