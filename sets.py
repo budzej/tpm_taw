@@ -21,10 +21,30 @@ b={2,3,6}
 
 
 suma=a.union(b)
-print(suma)
+#print(suma)
 
 roznica=a.difference(a)
-print(roznica)
+#print(roznica)
 
 roznica2=b.difference(b)
-print(roznica2)
+#print(roznica2)
+
+
+if 3 in b:
+    b.remove(3)
+    
+if 3 in b:
+    b.remove(3)
+    
+print(b)
+
+lista1=[2,4,5,6,9]
+if 1 in lista1:
+    print("Jest")
+else:
+    print("nie")
+    
+    
+listaX=[2,3,4,2,3,4,2,3,4]
+listaX=list(set(listaX))
+print(listaX)
